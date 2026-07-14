@@ -1,0 +1,43 @@
+{
+  "name": "Spotube AltStore",
+  "subtitle": "A personal AltStore source for Spotube",
+  "description": "Spotube 5.1.2 repackaged with ad-hoc inner-framework signatures so AltStore can re-sign it with your Apple Account.",
+  "iconURL": "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/branding/spotube-logo.png",
+  "website": "https://spotube.krtirtho.dev/",
+  "tintColor": "#242832",
+  "featuredApps": [
+    "oss.krtirtho.spotube.stable"
+  ],
+  "apps": [
+    {
+      "name": "Spotube",
+      "bundleIdentifier": "oss.krtirtho.spotube.stable",
+      "developerName": "KRTirtho",
+      "subtitle": "Open-source music streaming client",
+      "localizedDescription": "Spotube is an open-source music streaming client. This IPA has been repackaged for AltStore compatibility; AltStore signs it with your Apple Account during installation.",
+      "iconURL": "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/branding/spotube-logo.png",
+      "tintColor": "#242832",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "5.1.2",
+          "buildVersion": "45",
+          "date": "2026-07-14",
+          "localizedDescription": "AltStore compatibility repackaging of Spotube 5.1.2.",
+          "downloadURL": "https://github.com/newuseramdrocm/spotube-altstore/releases/download/Spotube/Spotube-iOS-AltStore-Fixed.ipa",
+          "size": 34963801,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This app require access to the device camera",
+          "NSMicrophoneUsageDescription": "This app does not require access to the device microphone",
+          "NSPhotoLibraryUsageDescription": "This app require access to the photo library"
+        }
+      }
+    }
+  ],
+  "news": []
+}
